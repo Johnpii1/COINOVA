@@ -5,6 +5,7 @@ import CryptoList from "./components/CryptoList";
 
 function App() {
   return (
+    <div className="">
     <BrowserRouter>
       <Navbar />
 
@@ -15,7 +16,9 @@ function App() {
         </Routes>
       </main>
     </BrowserRouter>
+    </div>
   );
 }
 
 export default App;
+

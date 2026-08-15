@@ -5,7 +5,7 @@ export async function getCryptoMarkets() {
 
   url.searchParams.set("vs_currency", "usd");
   url.searchParams.set("order", "market_cap_desc");
-  url.searchParams.set("per_page", "10");
+  url.searchParams.set("per_page", "50");
   url.searchParams.set("page", "1");
   url.searchParams.set("sparkline", "false");
 
